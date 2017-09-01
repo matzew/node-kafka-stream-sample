@@ -1,0 +1,20 @@
+{
+  "name": "node-stream-sample",
+  "version": "1.0.0",
+  "description": "Little streams processor",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthias Wessendorf",
+ "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "log4bro": "~3.0.0",
+    "kafka-streams": "2.3.0"
+  }
+}
